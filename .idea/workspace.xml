@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" name="Default" comment="for commit test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lpeter83/src/main/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/output/Main.java" afterPath="$PROJECT_DIR$/lpeter83/output/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solutionForAlgo.iws" />
@@ -400,6 +398,11 @@
       <created>1387524205438</created>
       <updated>1387524205438</updated>
     </task>
+    <task id="LOCAL-00001" summary="for commit test">
+      <created>1388116619674</created>
+      <updated>1388116619674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,6 +443,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
