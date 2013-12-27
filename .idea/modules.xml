@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algoLib/algoLib.iml" filepath="$PROJECT_DIR$/algoLib/algoLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lpeter83/lpeter83.iml" filepath="$PROJECT_DIR$/lpeter83/lpeter83.iml" />
+    </modules>
+  </component>
+</project>
+
