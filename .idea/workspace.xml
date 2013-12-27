@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" name="Default" comment="for commit test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoLib/sai/io/InputReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algoLib/sai/io/OutputWriter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lpeter83/src/main/Task.task" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/src/main/Task.java" afterPath="$PROJECT_DIR$/lpeter83/src/main/Task.java" />
+    <list default="true" id="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" name="Default" comment="InputReader OutputReader">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solutionForAlgo.iws" />
@@ -74,7 +70,9 @@
         <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="68" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -466,7 +464,11 @@
       <created>1388116722700</created>
       <updated>1388116722700</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="InputReader OutputReader">
+      <created>1388138621404</created>
+      <updated>1388138621404</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -513,7 +515,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="for commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="for commit test" />
+    <MESSAGE value="InputReader OutputReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="InputReader OutputReader" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -556,7 +559,9 @@
     <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Task.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="68" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
