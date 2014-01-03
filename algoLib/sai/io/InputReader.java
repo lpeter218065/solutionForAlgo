@@ -28,12 +28,29 @@ public class InputReader {
             } catch (IOException e) {
                 throw new InputMismatchException();
             }
-            if (nc == -1) {
+            if (nc <= 0) {
                 return -1;
             }
         }
         return buf[cnt++];
     }
+
+    public int peek() {
+        if (nc == -1)
+            return -1;
+        if (cnt >= nc) {
+            cnt = 0;
+            try {
+                nc = stream.read(buf);
+            } catch (IOException e) {
+                return -1;
+            }
+            if (nc <= 0)
+                return -1;
+        }
+        return buf[nc];
+    }
+
 
     private boolean isSpaceChar(int b) {
         return b == ' ' || b == '\n' || b == -1 || b == '\r' || b == '\t';
@@ -75,5 +92,64 @@ public class InputReader {
         return res * (sgn ? 1 : -1);
     }
 
+    public String readString() {
+        int c = read();
+        while (isSpaceChar(c)) c = read();
+        StringBuilder sb = new StringBuilder();
+        while (!isSpaceChar(c)) {
+            sb.appendCodePoint(c);
+            c = read();
+        }
+        return sb.toString();
+    }
+
+    public char readCharacter() {
+        int c = read();
+        while (isSpaceChar(c))
+            c = read();
+        return (char) c;
+    }
+
+    public double readDouble() {
+        int c = read();
+        while (isSpaceChar(c))
+            c = read();
+        int sgn = 1;
+        if (c == '-') {
+            sgn = -1;
+            c = read();
+        }
+        double res = 0;
+        while (!isSpaceChar(c) && c != '.') {
+            if (c == 'e' || c == 'E')
+                return res * Math.pow(10, readInt());
+            if (c < '0' || c > '9')
+                throw new InputMismatchException();
+            res *= 10;
+            res += c - '0';
+            c = read();
+        }
+        if (c == '.') {
+            c = read();
+            double m = 1;
+            while (!isSpaceChar(c)) {
+                if (c == 'e' || c == 'E')
+                    return res * Math.pow(10, readInt());
+                if (c < '0' || c > '9')
+                    throw new InputMismatchException();
+                m /= 10;
+                res += (c - '0') * m;
+                c = read();
+            }
+        }
+        return res * sgn;
+    }
+
+
+    public boolean isExhausted() {
+        int value;
+        while (isSpaceChar(value = peek()) && value != -1) read();
+        return value == -1;
+    }
 
 }
