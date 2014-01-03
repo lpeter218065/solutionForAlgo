@@ -145,6 +145,16 @@ public class InputReader {
         return res * sgn;
     }
 
+    public String readLine() {
+        StringBuffer sb = new StringBuffer();
+        int c = read();
+        while (isSpaceChar(c)) c = read();
+        while (c != '\n' && c != -1) {
+            sb.appendCodePoint(c);
+            c = read();
+        }
+        return sb.toString();
+    }
 
     public boolean isExhausted() {
         int value;
