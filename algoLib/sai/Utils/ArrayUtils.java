@@ -15,5 +15,14 @@ public class ArrayUtils {
         return hb;
     }
 
-
+    public static int upperBound(int[] a, int cnt) {
+        int lb = -1;
+        int hb = a.length;
+        while (hb - lb > 1) {
+            int m = (hb + lb) >> 1;
+            if (a[m] >= cnt) lb = m; // [m,hb)
+            else hb = m; // [lb,m) a[m] < cnt
+        }
+        return lb;
+    }
 }
