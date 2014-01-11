@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" name="Default" comment="InputReader OutputReader">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Output/Output.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aarchive/aarchive.iml" />
+      <change type="DELETED" beforePath="C:\Users\rxu\IdeaProjects\solutionForAlgo\lpeter83\output\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rxu\IdeaProjects\solutionForAlgo\lpeter83\src\main\Task.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rxu\IdeaProjects\solutionForAlgo\lpeter83\src\main\Task.task" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/CHelper.xml" afterPath="$PROJECT_DIR$/.idea/libraries/CHelper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHelperReport.txt" afterPath="$PROJECT_DIR$/CHelperReport.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoLib/sai/io/InputReader.java" afterPath="$PROJECT_DIR$/algoLib/sai/io/InputReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/output/Main.java" afterPath="$PROJECT_DIR$/lpeter83/output/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/src/main/Task.java" afterPath="$PROJECT_DIR$/lpeter83/src/main/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/src/main/Task.task" afterPath="$PROJECT_DIR$/lpeter83/src/main/Task.task" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoLib/sai/Utils/IOUtils.java" afterPath="$PROJECT_DIR$/algoLib/sai/Utils/IOUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algoLib/algoLib.iml" afterPath="$PROJECT_DIR$/algoLib/algoLib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lpeter83/lpeter83.iml" afterPath="$PROJECT_DIR$/lpeter83/lpeter83.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solutionForAlgo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1388158793676" ignored="false" />
-    <file path="/Task.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1388155135803" ignored="false" />
-    <file path="/InputReader.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1388158745403" ignored="false" />
+    <file path="/Dummy.txt" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1389409428365" ignored="false" />
+    <file path="/fragment.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1389410130799" ignored="false" />
+    <file path="$PROJECT_DIR$/Output/src/Main.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1389410242477" ignored="false" />
+    <file path="/TaskbTestCase.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1389410182134" ignored="false" />
+    <file path="/Taskb.java" changelist="7b12688e-b9e7-49a4-bf8a-05afdeb9e49f" time="1389410206240" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +38,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,6 +74,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -75,26 +83,7 @@
     <favorites_list name="solutionForAlgo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="94" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputReader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algoLib/sai/io/InputReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="262" selection-end="262" vertical-scroll-proportion="0.5954198">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -112,22 +101,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test.java" />
-        <option value="$PROJECT_DIR$/algoLib/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/Task.java" />
         <option value="$PROJECT_DIR$/chelper.properties" />
         <option value="$PROJECT_DIR$/algoLib/sai/io/OutputWriter.java" />
-        <option value="$PROJECT_DIR$/lpeter83/src/main/Task.java" />
-        <option value="$PROJECT_DIR$/algoLib/sai/io/InputReader.java" />
         <option value="$PROJECT_DIR$/CHelperReport.txt" />
+        <option value="$PROJECT_DIR$/algoLib/sai/io/InputReader.java" />
+        <option value="$PROJECT_DIR$/algoLib/sai/Utils/NumUtils.java" />
+        <option value="$PROJECT_DIR$/algoLib/sai/Utils/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/algoLib/sai/Utils/IOUtils.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/1/Temp1_yaal.zip/yaal-7853b0ace8ce/lib/test/on2013_12/on2013_12_24_Codeforces_Round__221/A___Divisible_by_Seven/Main.java" />
+        <option value="$USER_HOME$/AppData/Local/Temp/1/Temp1_yaal.zip/yaal-7853b0ace8ce/lib/test/on2013_11/on2013_11_22_Facebook_Hacker_Cup_2014_Qualification_Round/Tennison/TennisonTestCase.java" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/Task.java" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/TestCase1.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/Taskc.java" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/TaskTestCase.java" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/TaskbTestCase.java" />
+        <option value="$PROJECT_DIR$/lpeter83/src/main/Taskb.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="158" />
+    <option name="y" value="40" />
+    <option name="width" value="1244" />
+    <option name="height" value="1328" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -160,8 +157,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,7 +193,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algoLib" />
+              <option name="myItemId" value="lpeter83" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,12 +210,14 @@
               <option name="myItemId" value="algoLib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="solutionForAlgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
+              <option name="myItemId" value="aarchive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,38 +227,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="154" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="172" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.IdeaIC12/config/plugins/chelper/lib/cojac.jar!/" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="178" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="850" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="858" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="171" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="165" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="project.structure.side.proportion" value="0.18539977" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -263,23 +245,7 @@
       <recent name="C:\Users\rxu\IdeaProjects\solutionForAlgo\algoLib\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Task.Task">
-    <configuration default="false" name="test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solutionForAlgo" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -406,21 +372,25 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Task" type="Task" factoryName="Task">
-      <taskConf>lpeter83/src/main/Task.task</taskConf>
+    <configuration default="false" name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solutionForAlgo" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Task.Task" />
-      <item index="1" class="java.lang.String" itemvalue="Application.test" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.test" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.test" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -466,34 +436,70 @@
       <created>1388138621404</created>
       <updated>1388138621404</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="InputReader OutputReader">
+      <created>1388713507043</created>
+      <updated>1388713507043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="InputReader">
+      <created>1388713900735</created>
+      <updated>1388713900735</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add arrayutils,ioutils and numutils">
+      <created>1388734660125</created>
+      <updated>1388734660125</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add upBound">
+      <created>1388744888884</created>
+      <updated>1388744888884</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="158" y="40" width="1244" height="1328" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5003984" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22297297" sideWeight="0.5004042" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1872" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44881076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.4996421" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26693228" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28235295" sideWeight="0.77749574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22250423" sideWeight="0.4995958" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293919" sideWeight="0.4995958" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285473" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -546,7 +552,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="InputReader OutputReader" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upBound" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +568,9 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="for commit test" />
     <MESSAGE value="InputReader OutputReader" />
+    <MESSAGE value="InputReader" />
+    <MESSAGE value="add arrayutils,ioutils and numutils" />
+    <MESSAGE value="add upBound" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -571,25 +580,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoLib/sai/io/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algoLib/sai/io/OutputWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TaskClass.template">
@@ -597,42 +590,54 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chelper.properties">
+    <entry file="file://$PROJECT_DIR$/algoLib/sai/Utils/ArrayUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="390" selection-end="390" vertical-scroll-proportion="0.37421384" />
+        <state line="11" column="18" selection-start="264" selection-end="264" vertical-scroll-proportion="0.25" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lpeter83/lpeter83.iml">
+    <entry file="jar://C:/jdk1.7.0_45/src.zip!/java/io/StringWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algoLib/sai/io/OutputWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.27480915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="94" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="38" selection-start="355" selection-end="355" vertical-scroll-proportion="-0.50845253" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CHelperReport.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algoLib/sai/io/InputReader.java">
+    <entry file="file://$PROJECT_DIR$/TestCaseClass.template">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="262" selection-end="262" vertical-scroll-proportion="0.5954198">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lpeter83/lpeter83.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="101" selection-end="101" vertical-scroll-proportion="0.044213265" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoLib/sai/Utils/NumUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="100" selection-end="100" vertical-scroll-proportion="0.028571429" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chelper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="19" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algoLib/algoLib.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lpeter83/src/main/Taskc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="61" selection-end="61" vertical-scroll-proportion="0.05711086">
           <folding />
         </state>
       </provider>
@@ -681,7 +686,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18539977" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -689,11 +694,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lpeter83</last-edited>
+          <last-edited>Archive</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18539977" />
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -705,7 +722,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18539977" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
