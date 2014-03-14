@@ -20,9 +20,11 @@ public class ArrayUtils {
         int hb = a.length;
         while (hb - lb > 1) {
             int m = (hb + lb) >> 1;
-            if (a[m] >= cnt) lb = m; // [m,hb)
-            else hb = m; // [lb,m) a[m] < cnt
+            if (a[m] > cnt) hb = m; //which means that cnt should be located before m
+            else lb = m; // [m,hb)
         }
-        return lb;
+        if (a[lb] < cnt) return -1;
+        else return lb;
     }
+
 }
