@@ -25,9 +25,10 @@ public class Poj3977 {
         int j = right;
         Random rnd = new Random();
         int p = left + rnd.nextInt(right - left + 1);
+		long x = a[p], y = b[p];
         while (i < j) {
-            while (a[i] < a[p] || (a[i] == a[p] && b[i] < b[p])) i++; //a[i] >= a[p], could stop at p
-            while (a[j] > a[p] || (a[j] == a[p] && b[j] > b[p])) j--;
+            while (a[i] < x || (a[i] == x && b[i] < y)) i++; //a[i] >= a[p], could stop at p
+            while (a[j] > x || (a[j] == x && b[j] > y)) j--;
             if (i <= j) { //should be i<=j, case i==j is a[i]=a[j]=a[p]
                 long t = a[i];
                 a[i] = a[j];
@@ -48,31 +49,16 @@ public class Poj3977 {
         loop:
         for (; ; ) {
             n = in.readInt();
-            //Random rnd = new Random();
-            //n=rnd.nextInt(35);
+//            Random rnd = new Random();
+//            n=rnd.nextInt(35);
             if (n == 0) break;
-            if (n == 1) {
-                out.printLine(Math.abs(in.readInt()), 1);
-                //out.printLine(Math.abs(rnd.nextLong()),1);
-                continue;
-            }
             a = new long[n];
             for (int i = 0; i < n; ++i) {
                 a[i] = in.readLong();
-                //a[i]=rnd.nextLong();
+//                a[i]=rnd.nextLong();
             }
-            Arrays.sort(a);
-            int neg = -1;
-            for (int i = 0; i < n; ++i)
-                if (a[i] > 0) {
-                    neg = i;
-                    break;
-                } else if (a[i] == 0) {
-                    out.printLine(0, 1);
-                    continue loop;
-                }
-            if (neg == -1) {
-                out.printLine(-a[a.length - 1], 1);
+            if (n==1) {
+                out.printLine(Math.abs(a[0]),1);      // WA at here
                 continue loop;
             }
             m = n / 2;
@@ -110,12 +96,30 @@ public class Poj3977 {
             }
             sort(0, sm.length - 1, sm, count);
             sort(0, sm2.length - 1, sm2, count2);
-            res = 1 << 40;
-            c = 1 << 40;
+			int m2=1;
+			for(int i=1;i<sm.length;++i) {
+				if (sm[m2-1]<sm[i]) {
+					sm[m2]=sm[i]; count[m2]=count[i];m2++;
+				} else if (sm[m2-1]==0 && count[m2-1]==0 && sm[i]==0) {
+					sm[m2]=sm[i]; count[m2]=count[i];m2++;
+				}
+			} // m2 is new length
+			long INF=Long.MAX_VALUE;
+            res = INF;
+            c = INF;
             for (int i = 0; i < sm2.length; ++i) {
-                int id = ArrayUtils.lowerBound(sm, -sm2[i]);
+                //int id = ArrayUtils.lowerBound(sm, -sm2[i]);
+				int lb=-1,hb=m2;
+				while(hb-lb>1) {
+					int m=(hb+lb)/2;
+					if (sm[m] >= -sm2[i])
+						hb=m;
+					else
+						lb=m;
+				}
+				int id=hb;
                 for (int j = id - 3; j <= id + 3; ++j) {
-                    if (j >= 0 && j < sm.length) {
+                    if (j >= 0 && j < m2) {
                         if (count2[i] == 0 && count[j] == 0) continue;
                         if (res > Math.abs(sm[j] + sm2[i]) || (res == Math.abs(sm[j] + sm2[i]) && c > count[j] + count2[i])) {
                             res = Math.abs(sm[j] + sm2[i]);
@@ -124,59 +128,9 @@ public class Poj3977 {
                     }
                 }
             }
+
+            if (res<0) throw new AssertionError();
             out.printLine(res, c);
-            /*
-            m=n/2;
-            if (neg>m) {
-                //reverse the order
-                for(int i=0;i<n/2;++i) {
-                    long t=a[n-1-i];
-                    a[n-1-i]=a[i];
-                    a[i]=t;
-                }
-            }
-            ps=0;
-            sm=new long[(1<<m)-1];
-            count = new long[(1<<m)-1];
-            for(int i=1;i<1<<m;++i) {
-                long ss=0;
-                int cc=0;
-                for(int j=0;j<m;++j) {
-                    if ((i>>j&1)==1) {
-                        ss+=a[j];
-                        cc+=1;
-                    }
-                }
-                sm[ps]=ss;
-                count[ps]=cc;
-                ps++;
-            }
-            sort(0,sm.length-1);
-            res=Math.abs(sm[0]);
-            c=count[0];
-            for(int i=1;i<sm.length;++i) {
-                if (sm[i]==sm[0]) {
-                    if (c>count[i])
-                        c=count[i];
-                } else break;
-            }
-            for(int i=m;i<n;++i) {
-                if (res > Math.abs(a[i])) {
-                    res = Math.abs(a[i]);
-                    c = 1;
-                }
-                int id=ArrayUtils.lowerBound(sm,-a[i]);
-                for(int j=id-10;j<=id+10;++j) {
-                    if (j>=0 && j<ps) {
-                        if (res > Math.abs(a[i]+sm[j])) {
-                            res = Math.abs(a[i]+sm[j]);
-                            c = count[j]+1;
-                        }
-                    }
-                }
-            }
-            out.printLine(res,c);
-            */
         }
     }
 
