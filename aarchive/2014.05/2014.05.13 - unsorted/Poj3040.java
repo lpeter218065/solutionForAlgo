@@ -47,30 +47,38 @@ public class Poj3040 {
             count[i] = in.readInt();
         }
         sort(0, N - 1, a, count);
+		for(int i=N-1;i>=0;i--) {
+			if (a[i]>=C) {
+				ans+=count[i];
+				count[i]=0;
+			}
+		}
         loop:
         while (true) {
             if (allEmpty(count)) break;
             int nc = C;
             for (int i = N - 1; i >= 0; --i) {
                 int t = nc / a[i];
-                if (t == 0) t++;
                 t = Math.min(t, count[i]);
                 nc -= t * a[i];
                 count[i] -= t;
-                if (nc <= 0) {
-                    ans++;
-                    continue loop;
-                }
+				if (nc == 0) {
+					ans++;
+					continue loop;
+				}
             }
             for (int i = 0; i < N; ++i) {
+				if (count[i] == 0) continue;
                 int t = nc / a[i];
-                if (t == 0) t++;
-                t = Math.min(t, count[i]);
-                count[i] -= t;
-                if (nc - a[i] * t <= 0) {
-                    ans++;
-                    continue loop;
-                }
+				count[i] -= (t+1);
+				ans++;
+				continue loop;
+                // t = Math.min(t, count[i]);
+                // count[i] -= t;
+                // if (nc - a[i] * t <= 0) {
+                    // ans++;
+                    // continue loop;
+                // }
             }
         }
         out.printLine(ans);
