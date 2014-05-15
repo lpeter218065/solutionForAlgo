@@ -9,8 +9,8 @@ public class ArrayUtils {
         int hb = a.length;
         while (hb - lb > 1) {
             int m = (hb + lb) >> 1;
-            if (a[m] >= cnt) hb = m; // (lb,mid]
-            else lb = m; // (mid,hb]
+            if (a[m] >= cnt) hb = m;
+            else lb = m;
         }
         return hb;
     }
@@ -21,20 +21,10 @@ public class ArrayUtils {
         while (hb - lb > 1) {
             int m = (hb + lb) >> 1;
             if (a[m] > cnt) hb = m;
-            else lb = m; // [m,hb)
+            else lb = m;
         }
         if (a[lb] < cnt) return -1;
         else return lb;
     }
 
-    public static int lowerBound(long[] a, int from, int to, long cnt) { //[from,to)
-        int lb = from - 1;
-        int hb = to;
-        while (hb - lb > 1) {
-            int m = (hb + lb) >> 1;
-            if (a[m] >= cnt) hb = m; // (lb,mid]
-            else lb = m; // (mid,hb]
-        }
-        return hb;
-    }
 }

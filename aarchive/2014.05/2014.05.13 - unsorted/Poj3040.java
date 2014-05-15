@@ -34,59 +34,53 @@ public class Poj3040 {
 
     int[] a, count;
     int N, C;
+    int ans;
 
     public void solve(int testNumber, InputReader in, OutputWriter out) {
         N = in.readInt();
         C = in.readInt();
         a = new int[N];
         count = new int[N];
+        ans = 0;
         for (int i = 0; i < N; ++i) {
             a[i] = in.readInt();
             count[i] = in.readInt();
         }
         sort(0, N - 1, a, count);
-        int ans = 0;
-        loop2:
+		for(int i=N-1;i>=0;i--) {
+			if (a[i]>=C) {
+				ans+=count[i];
+				count[i]=0;
+			}
+		}
+        loop:
         while (true) {
             if (allEmpty(count)) break;
             int nc = C;
-            loop:
-            for (int i = N - 1; i >= 0; i--) {
-                int t = 0;
-                while (nc > 0) {
-                    if (count[i] == 0) continue loop;
-                    if (count[i] > 0) {
-                        count[i]--;
-                        nc -= a[i];
-                        t++;
-                    }
-                    if (nc == 0 || t == 1 && nc < 0) {
-                        ans++;
-                        continue loop2;
-                    }
-                    if (nc < 0) {
-                        count[i]++;
-                        nc += a[i];
-                        break loop;
-                    }
-                }
+            for (int i = N - 1; i >= 0; --i) {
+                int t = nc / a[i];
+                t = Math.min(t, count[i]);
+                nc -= t * a[i];
+                count[i] -= t;
+				if (nc == 0) {
+					ans++;
+					continue loop;
+				}
             }
-            loop3:
             for (int i = 0; i < N; ++i) {
-                while (nc > 0) {
-                    if (count[i] == 0) continue loop3;
-                    if (count[i] > 0) {
-                        count[i]--;
-                        nc -= a[i];
-                    }
-                    if (nc <= 0) {
-                        ans++;
-                        continue loop2;
-                    }
-                }
+				if (count[i] == 0) continue;
+                int t = nc / a[i];
+				count[i] -= (t+1);
+				ans++;
+				continue loop;
+                // t = Math.min(t, count[i]);
+                // count[i] -= t;
+                // if (nc - a[i] * t <= 0) {
+                    // ans++;
+                    // continue loop;
+                // }
             }
         }
-        if (ans < 0) throw new AssertionError();
         out.printLine(ans);
     }
 
