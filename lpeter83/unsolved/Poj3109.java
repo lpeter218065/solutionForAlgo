@@ -18,7 +18,7 @@ public class Poj3109 {
         }
 
         @Override
-        public String toString() {
+        public toString() {
             return "point{" +
                     "x=" + x +
                     ", y=" + y +
@@ -29,7 +29,8 @@ public class Poj3109 {
     int N;
     long x[];
     long y[];
-
+	int MX,MY;
+	
     public void solve(int testNumber, InputReader in, OutputWriter out) {
         N = in.readInt();
         x = new long[N];
@@ -40,7 +41,10 @@ public class Poj3109 {
         }
         int[] nx = compress(x);
         int[] ny = compress(y);
-
+//		MX = ArrayUtils.maxElement(nx);
+//		MY = ArrayUtils.maxElement(ny);
+		
+		
         point[] p = new point[N];
         for (int i = 0; i < N; ++i) {
             p[i] = new point(nx[i], ny[i]);
@@ -60,6 +64,28 @@ public class Poj3109 {
         out.printLine(Arrays.toString(p));
 
     }
+	
+
+	private int sum(int[][] b, int x, int y) {
+		int s = 0;
+		while (x <= MX) {
+			int ny = y;
+			while (ny <= MY) {
+				s += b[x][ny];
+				ny += ny & -ny;
+			}
+			x += x & -x;
+		}
+		return x;
+	}
+	
+	private void update(int[][] b, int x, int y) {
+
+		
+	}
+	
+	
+	
 
     private int[] compress(long[] x) {
         long[] x2 = x.clone();
@@ -75,7 +101,7 @@ public class Poj3109 {
         int[] res = new int[x.length];
         for (int i = 0; i < x.length; ++i) {
             int id = Arrays.binarySearch(x3, 0, ps + 1, x[i]);
-            res[i] = id;
+            res[i] = id + 1; // all start from 1
         }
         return res;
     }

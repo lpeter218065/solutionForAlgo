@@ -1,0 +1,21 @@
+7 Poj3109
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+0
+17 lpeter83/src/main
+16 -Xmx256m -Xss64m
+4 Main
+12 main.Poj3109
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.15
+0 
+1
+14 io.InputReader
+15 io.OutputWriter
+0
+0
