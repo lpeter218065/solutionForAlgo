@@ -36,8 +36,8 @@ public class Sort {
         int e = hi - 1;
 
         while (s < e) {
-            while (arr[s] < p) s++;
-            while (arr[e] > p) e--;
+            while (s < arr.length && arr[s] < p) s++;
+            while (e >= 0 && arr[e] > p) e--;
             if (s < e) {
                 swap(arr, s, e);
             }
@@ -49,7 +49,7 @@ public class Sort {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{4, 6, 8, 9, 9, 3, 20, 1, 10, 20, 15};
+        int[] a = new int[]{4, 6, 8, 9, 3, 2, 1, 5, 7, 4};
         quickSort(a, 0, a.length - 1);
         System.out.println(Arrays.toString(a));
     }
