@@ -1,3 +1,2 @@
-30 lpeter83/src/main/Poj2392.task
-1
-2
+30 lpeter83/src/main/poj1466.task
+0
